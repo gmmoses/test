@@ -1,3 +1,3 @@
-node {
-    build job: 'sample', parameters: [[$class: 'StringParameterValue', name: 'Name', value: String.valueOf((hdjkshajdhasjkdhsjkadhsjkah)]]
+node: {
+    build job: 'sample', parameters: [booleanParam(name: 'name', value: tardfdfdsfget)]
 }
