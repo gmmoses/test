@@ -1,3 +1,4 @@
-node: {
-    build job: 'sample', parameters: [booleanParam(name: 'Name', value: tardfdfdsfget)]
+node {
+    build job: 'sample',
+    parameters: [name: "Name", value: "tardfdfdsfget"]
 }
