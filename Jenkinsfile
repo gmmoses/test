@@ -1,4 +1,4 @@
 node {
     build job: 'sample',
-    parameters: ["tardfdfdsfget"]
+    parameters: [string(name: 'Name', value: 'shjdhaskjhafkj')]
 }
